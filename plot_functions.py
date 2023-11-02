@@ -26,8 +26,8 @@ def tidy_plot(xmin, xmax, ymin, ymax, center = False, title = None,
     plt.xlim(xmin-eps, xmax+eps)
     plt.ylim(ymin-eps, ymax+eps)
     if title: ax.set_title(title)
-    if xlabel: ax.set_xlabel(xlabel)
     if ylabel: ax.set_ylabel(ylabel)
+    if xlabel: ax.set_xlabel(xlabel)
     return ax
 
 def plot_separator(ax, th, th_0):
